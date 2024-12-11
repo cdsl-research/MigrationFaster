@@ -1,0 +1,2 @@
+pymysql
+bs4
