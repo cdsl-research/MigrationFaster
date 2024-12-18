@@ -87,6 +87,9 @@ python remove-png.py
 
 
 #### 出力結果
+
+![Begin Remove Console](img/filesearch-console-begin.png)
+
 出力量が多いため, 一部のみ掲載します.
 ```cmd
 /tmp/var/www/html/wp-content/uploads/2024/09/IMG_1388.jpg
