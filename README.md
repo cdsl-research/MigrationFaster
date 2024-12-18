@@ -25,12 +25,7 @@ pip3 install -r requirements.txt
 
 #### 使用方法
 
-1. 必要なパッケージをインストールします
-```sh
-pip install pymysql beautifulsoup4
-```
-
-2. スクリプト内のデータベース接続情報を変更します
+1. スクリプト内のデータベース接続情報を変更します
 ```Python
 connection = pymysql.connect(
   host='YOUR_DATABASE_HOST',
@@ -40,12 +35,12 @@ connection = pymysql.connect(
 )
 ```
 
-3. スクリプトを実行します
+2. スクリプトを実行します
 ```cmd
 python file-search.py
 ```
  
-4. result.csv という名前のCSVファイルに結果が保存されます
+3. result.csv という名前のCSVファイルに結果が保存されます
    スクリプトの詳細
 - WordPressデータベースに接続し, wp_postsテーブルから画像を含む投稿を取得します
 - BeautifulSoupを使用してHTMLコンテンツから画像URLを抽出します
