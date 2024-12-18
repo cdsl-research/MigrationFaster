@@ -153,6 +153,3 @@ Script Execution Time: 0.36 seconds
 ![Remove Console](img/remove-console.png)
 
 
-#### 注意事項
-スクリプトを実行する前に, 必ずデータベースとuploadsディレクトリのバックアップを取ってください.
-ファイルの削除操作は不可逆であるため, 十分に注意して実行してください.
