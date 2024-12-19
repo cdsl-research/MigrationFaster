@@ -53,7 +53,7 @@ Total Images Extracted: 802
 Script Execution Time: 0.25 seconds
 Results saved to: result.csv
 ```
-<!-- ![Filesearch Console](img/filesearch-console.png) -->
+![Filesearch Console](img/filesearch-console.png)
 
 
 ### remove-png.py
@@ -82,7 +82,7 @@ python remove-png.py
 
 #### 出力結果
 
-<!-- ![Begin Remove Console](img/filesearch-console-begin.png) -->
+![Begin Remove Console](img/filesearch-console-begin.png)
 
 出力量が多いため, 一部のみ掲載します.
 ```cmd
@@ -144,6 +144,6 @@ python remove-png.py
 Script Execution Time: 0.36 seconds
 ```
 
-<!-- ![Remove Console](img/remove-console.png) -->
+![Remove Console](img/remove-console.png)
 
 
