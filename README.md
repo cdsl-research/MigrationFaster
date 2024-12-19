@@ -1,9 +1,8 @@
 # MigrationFaster
-# README
 
-このリポジトリには, WordPressの投稿コンテンツから画像ファイルを抽出し, 未使用の画像を削除するための2つのPythonスクリプトが含まれています.
+このリポジトリには, WordPressの投稿コンテンツから画像ファイルを抽出し, 未使用の画像を削除するための2つのPythonプログラムが含まれています.
 
-## スクリプト一覧
+## プログラム一覧
 
 1. `file-search.py`
 2. `remove-png.py`
@@ -20,12 +19,12 @@ pip3 install -r requirements.txt
 
 ### file-search.py
 
-このスクリプトは, WordPressのMySQLデータベースから画像を含む投稿を検索し  
+このプログラムは, WordPressのMySQLデータベースから画像を含む投稿を検索し  
 各投稿内の画像URLを抽出してCSVファイルに保存します.
 
 #### 使用方法
 
-1. スクリプト内のデータベース接続情報を変更します
+1. プログラム内のデータベース接続情報を変更します
 ```Python
 connection = pymysql.connect(
   host='YOUR_DATABASE_HOST',
@@ -35,13 +34,13 @@ connection = pymysql.connect(
 )
 ```
 
-2. スクリプトを実行します
+2. プログラムを実行します
 ```cmd
 python file-search.py
 ```
  
 3. result.csv という名前のCSVファイルに結果が保存されます
-   スクリプトの詳細
+   プログラムの詳細
 - WordPressデータベースに接続し, wp_postsテーブルから画像を含む投稿を取得します
 - BeautifulSoupを使用してHTMLコンテンツから画像URLを抽出します
 - 画像URLのうち, ~/uploads/ディレクトリ内のパスをCSVファイルに書き出します
@@ -59,23 +58,23 @@ Results saved to: result.csv
 
 ### remove-png.py
 
-このスクリプトは, result.csvに記載された画像ファイル以外の画像をWordPressのuploadsディレクトリから削除します.
+このプログラムは, result.csvに記載された画像ファイル以外の画像をWordPressのuploadsディレクトリから削除します.
 
 #### 使用方法
 
-1. スクリプト内のディレクトリパスとCSVファイルのパスを変更します.
+1. プログラム内のディレクトリパスとCSVファイルのパスを変更します.
 ```Python
 uploads_dir = "/path/to/wp-content/uploads"
 csv_file = "path/to/result.csv"
 ```
 
-2. スクリプトを実行します.
+2. プログラムを実行します.
 ```cmd
 python remove-png.py
 ```
 
 3. 実行結果として, 削除されたファイルのリストが表示されます.
-スクリプトの詳細
+プログラムの詳細
 - result.csvから使用中の画像ファイルパスを読み込み, セットに保存します
 - uploadsディレクトリを再帰的に走査し, CSVに含まれない画像ファイルを削除します
 - 削除されたファイルのリストと実行時間を表示します
