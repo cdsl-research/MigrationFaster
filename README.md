@@ -83,67 +83,14 @@ python remove-png.py
 #### 出力結果
 
 ![Begin Remove Console](img/filesearch-console-begin.png)
-
 出力量が多いため, 一部のみ掲載します.
 ```cmd
 /tmp/var/www/html/wp-content/uploads/2024/09/IMG_1388.jpg
-/tmp/var/www/html/wp-content/uploads/2024/09/IMG_7372.jpg
-/tmp/var/www/html/wp-content/uploads/2024/09/ブログ用-1-1040x603.jpg
-/tmp/var/www/html/wp-content/uploads/2024/09/IMG_7373-600x449.jpg
-/tmp/var/www/html/wp-content/uploads/2024/09/IMG_4483-2-1024x768.png
-/tmp/var/www/html/wp-content/uploads/2024/09/IMG_2276-1-1536x2048.jpg
-/tmp/var/www/html/wp-content/uploads/2024/09/IMG_1071-1-300x225.jpg
-/tmp/var/www/html/wp-content/uploads/2024/09/IMG_2257-150x150.jpg
-/tmp/var/www/html/wp-content/uploads/2024/09/IMG_2475-1-1536x1152.jpg
-/tmp/var/www/html/wp-content/uploads/2024/09/ブログ用_2-1024x768.jpg
-/tmp/var/www/html/wp-content/uploads/2024/09/PXL_20240917_054149842-edited-2048x2048.jpg
-/tmp/var/www/html/wp-content/uploads/2024/09/1726559483432-1-768x432.jpg
-/tmp/var/www/html/wp-content/uploads/2024/09/PXL_20240917_064048550-1040x1849.jpg
-/tmp/var/www/html/wp-content/uploads/2024/09/PXL_20240917_052951963.jpg
-/tmp/var/www/html/wp-content/uploads/2024/09/ブログ用-1-600x348.jpg
-/tmp/var/www/html/wp-content/uploads/2024/09/PXL_20240917_054149842-edited-600x600.jpg
-/tmp/var/www/html/wp-content/uploads/2024/09/1726559483432-1024x576.jpg
-/tmp/var/www/html/wp-content/uploads/2024/09/IMG_2475-1.jpg
-/tmp/var/www/html/wp-content/uploads/2024/09/IMG_5611-1040x780.jpg
-/tmp/var/www/html/wp-content/uploads/2024/09/IMG_1071-2048x1536.jpg
-/tmp/var/www/html/wp-content/uploads/2024/09/IMG_1068-1-scaled.jpg
-/tmp/var/www/html/wp-content/uploads/2024/09/PXL_20240917_052951963-edited-1536x1536.jpg
-/tmp/var/www/html/wp-content/uploads/2024/09/IMG_1072.jpg
-/tmp/var/www/html/wp-content/uploads/2024/09/ブログ用_2-2048x1536.jpg
-/tmp/var/www/html/wp-content/uploads/2024/09/IMG_4483-3-300x225.png
-/tmp/var/www/html/wp-content/uploads/2024/09/IMG_1071-1-1040x780.jpg
-/tmp/var/www/html/wp-content/uploads/2024/09/ブログ用_2-1-150x150.jpg
-/tmp/var/www/html/wp-content/uploads/2024/09/PXL_20240917_050645520-edited-150x150.jpg
-/tmp/var/www/html/wp-content/uploads/2024/09/IMG_4483-1-1024x768.png
-/tmp/var/www/html/wp-content/uploads/2024/09/PXL_20240917_050645520-150x150.jpg
-/tmp/var/www/html/wp-content/uploads/2024/09/LINE_ALBUM_ICM_240929_1-600x1067.jpg
-/tmp/var/www/html/wp-content/uploads/2024/09/1726559483184-1-300x169.jpg
-/tmp/var/www/html/wp-content/uploads/2024/09/image-600x1176.png
-/tmp/var/www/html/wp-content/uploads/2024/09/IMG_7372-1152x1536.jpg
-/tmp/var/www/html/wp-content/uploads/2024/09/ブログ用-2048x1188.jpg
-/tmp/var/www/html/wp-content/uploads/2024/09/PXL_20240917_054149842-edited-300x300.jpg
-/tmp/var/www/html/wp-content/uploads/2024/09/PXL_20240917_065146385-edited-600x600.jpg
-/tmp/var/www/html/wp-content/uploads/2024/09/IMG_2257.jpg
-/tmp/var/www/html/wp-content/uploads/2024/09/1726559486252-2-600x338.jpg
-/tmp/var/www/html/wp-content/uploads/2024/09/IMG_2475-1-600x450.jpg
-/tmp/var/www/html/wp-content/uploads/2024/09/IMG_2754-edited-2048x2048.jpg
-/tmp/var/www/html/wp-content/uploads/2024/09/IMG_7271-1040x1387.jpg
-/tmp/var/www/html/wp-content/uploads/2024/09/IMG_7271-2-1536x2048.jpg
-/tmp/var/www/html/wp-content/uploads/2024/09/IMG_1071-1-1536x1152.jpg
-/tmp/var/www/html/wp-content/uploads/2024/09/ブログ用_2-1.jpg
-/tmp/var/www/html/wp-content/uploads/2024/09/ブログ用_2-scaled.jpg
-/tmp/var/www/html/wp-content/uploads/2024/09/ブログ用_2-1-768x576.jpg
-/tmp/var/www/html/wp-content/uploads/2024/09/IMG_7271-2-225x300.jpg
-/tmp/var/www/html/wp-content/uploads/2024/09/PXL_20240917_065146385-150x150.jpg
-/tmp/var/www/html/wp-content/uploads/2024/09/ブログ用_2-1-scaled.jpg
-/tmp/var/www/html/wp-content/uploads/2024/09/IMG_5610-150x150.jpg
-/tmp/var/www/html/wp-content/uploads/2024/09/IMG_2475-scaled.jpg
-/tmp/var/www/html/wp-content/uploads/2024/09/ブログ用_2-1-1040x780.jpg
+                        ・
+                        ・
+                        ・
 /tmp/var/www/html/wp-content/uploads/2024/09/IMG_5611-1-600x450.jpg
-
-Script Execution Time: 0.36 seconds
 ```
-
 ![Remove Console](img/remove-console.png)
 
 
